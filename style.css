@@ -1,0 +1,255 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 80%;
+}
+
+.body-home {
+    background-image: url('images/background3.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals {
+    background-image: url('images/restaurant-menu-design-on-wood-background-vector-3417793.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*==================== HEADER ====================*/
+
+.header {
+    background-color: burlywood;
+    
+    width: 100%;
+}
+
+}
+
+.header i {
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: #ffffff;
+}
+
+.header img  {
+    width: 200px;
+    padding-top: 14px;
+    display: block;
+    margin: auto;
+    
+}
+
+#header {
+    background-color: burlywood;
+    
+    width: 100%;
+}
+
+}
+
+#header i {
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: #ffffff;
+}
+
+#header img  {
+    width: 200px;
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+    
+}
+
+
+/*==================== HOME PAGE ====================*/
+
+#home-logo-img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+/*====== HOME PAGE MENU ====== */
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid blue;
+    
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/*==================== MEALS PAGE ====================*/
+
+#meals {
+    padding-top: 50px;
+}
+
+#meals h3 {
+    color: darkorange;
+    text-align: center;
+}
+
+
+
+/*====== MEALS PAGE MENU ====== */
+
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: solid #ffffff;
+    margin: 10px;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.meals-list-item i{
+    float: right;
+    color: #ffffff;
+    padding-right: 10px;
+}
+
+.meals-list-item p {
+    font-size: 15px;
+    font-style: italic;
+    color: #ffffff;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*==================== RECIPE PAGE ====================*/
+
+#recipe {
+    padding-top: 50px;
+}
+
+
+/*==================== RECIPE DETAILS ====================*/
+
+.recipe-details img {
+    width: 100%;
+}
+
+.recipe-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid blue;
+    margin: 10px;
+    padding: 5px;
+}
+
+.recipe-details h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.recipe-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recipe-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+/*==================== RESPONSIVE LAYOUT ====================*/
+
+@media only screen and (min-width: 600px) {
+    #meals {
+        width: 80%;
+        margin: auto;  
+    }
+    
+    #recipe {
+        width: 80%;
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (min-width:1000px) {
+    #meals {
+        width: 60%;
+        margin: auto;
+    }
+    
+    #recipe {
+        width: 60%;
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (min-width:1500px) {
+    #meals {
+        width: 40%;
+        margin: auto;
+    }
+    
+    #recipe {
+        width: 40%;
+        margin: auto;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
